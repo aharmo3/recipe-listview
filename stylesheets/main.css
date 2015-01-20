@@ -455,10 +455,5 @@ small {
   background-position: -655px -94px; }
 
 /* line 1, /Users/amberharmon/Projects/Sites/git/firstgit/arFe-starter/stylesheets/shame */
-.some-paragraph {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  margin-top: 2em;
-  text-align: center;
-  text-transform: uppercase; }
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
