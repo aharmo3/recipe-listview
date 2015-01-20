@@ -72,7 +72,7 @@ $link-active: darken($link-color, 60%);
 // About rems:
 // http://snook.ca/archives/html_and_css/font-size-with-rem
 
-$base: 1rem;
+$base: .85rem;
 $sml: $base*0.8;
 
 $h1: $base*5.6;
@@ -88,8 +88,8 @@ $h6: $sml;
 
 // Pretty standard.
 
-$sans-serif: Arial;
-$serif: Georgia, serif;
+$sans-serif: 'opensans', sans-serif;
+$serif: 'opensans', serif;
 
 // If you are using webfonts and are a good girl/boy, you will define some fallbacks (see the top of _typography.scss for where to use them):
 
