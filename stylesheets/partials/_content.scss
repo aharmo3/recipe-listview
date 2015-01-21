@@ -1,46 +1,38 @@
-
 // ---
 // Content
 // ---
-
 // Keep it mobile first, yo! Read this:
 // http://www.abookapart.com/products/mobile-first
 // Actually, just buy all of those books.
-
 // Anyways, here's how I like to structure my content styles:
-
-
-
-// ---
-// Header
-// ---
-
-
-
-
-// ---
-// Main Site Content
-// ---
-
-
-
-
-// ---
-// Media
-// ---
-
-
-
-
-// ---
-// Footer
-// ---
-
-
-
-
-// ---
+.card {
+    background: #fff;
+    box-shadow: 0 0 5px #888;
+    padding: .5rem;
+    max-width: 223px;
+    display: inline-block;
+    vertical-align: top;
+    margin: .5rem;
+}
 // Misc Utilities
-// ---
-
-
+.rating {
+    width: 84px;
+    background: url(http://ukcdn.ar-cdn.com/global/spriteGlobal.svg?v=457) no-repeat;
+    height: 15px;
+    clear: both;
+}
+.rating.rating0 {
+    background-position: -740px -94px;
+}
+.rating.rating2 {
+    background-position: -706px -94px;
+}
+.rating.rating3 {
+    background-position: -689px -94px;
+}
+.rating.rating4 {
+    background-position: -672px -94px;
+}
+.rating.rating5 {
+    background-position: -655px -94px;
+}
