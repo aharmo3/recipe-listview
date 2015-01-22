@@ -42,7 +42,7 @@
             </a>
 
             <h3><a href="{{ recipeUrl + recipe.id }}">{{ recipe.recipeName }}</a></h3>
-
+            <div> Ready In: {{secondsToMin(recipe.totalTimeInSeconds) }}</div>
             <div class="rating rating{{ recipe.rating }} "></div>
             <p>{{ recipe.ingredients.join(", ") }}
                 <br>

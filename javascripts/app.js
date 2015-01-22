@@ -21,6 +21,21 @@ var recipeDataController = function($scope, $http, $log) {
 
     $scope.sgSortOrder = '-rating';
 
+    $scope.secondsToMin = function(seconds) {
+        var minutes = Math.ceil(seconds / 60);
+        var time;
+        if (minutes >= 60) {
+            if (minutes % 60 === 0) {
+                time = minutes / 60 + ' min';
+            } else {
+                time = Math.floor(minutes / 60) + ' hrs ' + (minutes - 60) + ' min';
+            }
+        } else {
+            time = minutes + ' min';
+        }
+
+        return time;
+    }
 };
 
 app.controller("recipeDataController", recipeDataController);
