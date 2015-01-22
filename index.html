@@ -32,9 +32,11 @@
                 <option value="+recipeName">Name</option>
                 <option value="-rating">Rating</option>
                 <option value="+sourceDisplayName">Provider</option>
+                <option value="+totalTimeInSeconds">Time</option>
             </select>
         </form>
-
+        <div>Number of Results: {{ numMatches }}</div>
+        <a href="" ng-click="pagination()">Next Page >></a>
         <div class="card ng-cloak" ng-repeat="recipe in recipes | orderBy: sgSortOrder">
 
             <a href="{{ recipeUrl + recipe.id }}">
@@ -46,7 +48,8 @@
             <div class="rating rating{{ recipe.rating }} "></div>
             <p>{{ recipe.ingredients.join(", ") }}
                 <br>
-                <span>{{ recipe.sourceDisplayName }}</span>
+                <a href="">{{ recipe.sourceDisplayName }}</a>
+                </span>
             </p>
         </div>
 
