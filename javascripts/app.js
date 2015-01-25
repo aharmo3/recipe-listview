@@ -1,4 +1,4 @@
-var app = angular.module("recipeListView", []);
+var app = angular.module("recipeListView", ['ngRoute','angular-loading-bar']);
 
 var recipeDataController = function($scope, $http, $log) {
 
@@ -8,11 +8,13 @@ var recipeDataController = function($scope, $http, $log) {
         $scope.numMatches = response.data.totalMatchCount;
     };
 
+    
+
     var onError = function(response) {
         $scope.error = 'Whoops!, something went wrong.'
     };
 
-    $scope.search = function(term) {
+    $scope.search = function(term)  {
         $http.get('http://api.yummly.com/v1/api/recipes?_app_id=46ac308e&_app_key=16cf1340c02c27af105b7618247c5e16&maxResult=10&q=' + term)
             .then(onSearchComplete, onError);
     };
@@ -23,7 +25,10 @@ var recipeDataController = function($scope, $http, $log) {
     };
 
     // Create Recipe Url
-    $scope.recipeUrl = 'http://www.yummly.com/recipe/';
+    $scope.createRecipeUrl = function(id){
+        var recipeUrl = 'http://www.yummly.com/recipe/';
+        return recipeUrl + id;
+    }
 
     $scope.sgSortOrder = '-rating';
 

@@ -5,45 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-    <link href="stylesheets/main.css" rel="stylesheet">
-    <!--POPUALR LIB/ FRAMEWORKS: UNCOMMENT AS YOU NEED THEM-->
-    <!-- Jquery <script src=
-    "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+    <link href="stylesheets/loading-bar.min.css" rel="stylesheet">
+
+        <link href="stylesheets/main.css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
-    <!--<script src=
-    "javascripts/library.A.js"></script>-->
-    <!-- LODASH <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>-->
-    <!-- BOOTSTRAP CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
- -->
-    <!--D3 <script src="http://d3js.org/d3.v3.min.js"></script>-->
-    <!-- <link href="//cdn.jsdelivr.net/flexboxgrid/6.1.1/flexboxgrid.min.css" rel=
-    "stylesheet" type="text/css">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular-route.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular-animate.js"></script>
+    <script src="bower_components/angular-loading-bar/src/loading-bar.js"></script>
 </head>
-
+<style type="text/css">
+.mainSearch{
+    border:1px solid red;
+    display:block;
+    min-height:100px;
+    margin-top:10px;
+    text-align:center;
+}
+INPUT[type="search"]{
+    background:#fff;
+    border:1px solid gray;
+    padding:5px;
+}
+INPUT[type="button"] {
+    padding:5px;
+}
+</style>
 <body ng-app="recipeListView">
-
-    <div class="container" ng-controller="recipeDataController" ng-init="search(' ')">
-
-        <form name="searchUser" ng-submit="search(term)">
+    <div class="container" ng-controller="recipeDataController" ng-init="search(' ')" >
+        <div class="mainSearch">
+        <form name="searchUser" ng-keypress="search(term)">
             <input ng-model="term" type="search" placeholder="Recipes to find">
             <input type="submit" value="search">
-            <select ng-model="sgSortOrder">
+            <br>
+            Sort By: <select ng-model="sgSortOrder">
                 <option value="+recipeName">Name</option>
                 <option value="-rating">Rating</option>
                 <option value="+sourceDisplayName">Provider</option>
                 <option value="+totalTimeInSeconds">Time</option>
             </select>
         </form>
-        <div>Number of Results: {{ numMatches }}</div>
-        <a href="" ng-click="pagination()">Next Page >></a>
+        </div>
+
+        <!--<div>Number of Results: {{ numMatches }}</div>
+        <a href="" ng-click="pagination()">Next Page >></a>-->
         <div class="card ng-cloak" ng-repeat="recipe in recipes | orderBy: sgSortOrder">
 
-            <a href="{{ recipeUrl + recipe.id }}">
+            <a href="{{ createRecipeUrl(recipe.id) }}">
                 <img ng-src="{{ recipe.smallImageUrls[0].replace('=s90', '=s325-c-e370') }}">
             </a>
 
-            <h3><a href="{{ recipeUrl + recipe.id }}">{{ recipe.recipeName }}</a></h3>
+            <h3><a href="{{ createRecipeUrl(recipe.id) }}" >{{ recipe.recipeName }}</a></h3>
             <div> Ready In: {{secondsToMin(recipe.totalTimeInSeconds) }}</div>
             <div class="rating rating{{ recipe.rating }} "></div>
             <p>{{ recipe.ingredients.join(", ") }}
