@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 9, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -16,7 +16,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 19, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 body {
   margin: 0; }
 
@@ -27,7 +27,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 43, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 43, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -35,7 +35,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 55, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 55, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
@@ -46,7 +46,7 @@ audio, canvas, progress, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 65, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 65, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -55,7 +55,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 76, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 76, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 [hidden], template {
   display: none; }
 
@@ -64,14 +64,14 @@ audio:not([controls]) {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 87, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 87, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 a {
   background: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 96, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 96, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -80,21 +80,21 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 107, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 107, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 116, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 116, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 124, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 124, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 dfn {
   font-style: italic; }
 
@@ -102,7 +102,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 133, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 133, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -110,7 +110,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 142, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 142, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 mark {
   background: yellow;
   color: black; }
@@ -118,25 +118,25 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 151, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 151, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 160, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 160, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 167, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 167, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 sup {
   top: -0.5em; }
 
-/* line 171, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 171, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -145,14 +145,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 182, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 182, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 190, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 190, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -161,14 +161,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 201, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 201, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 209, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 209, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -177,14 +177,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 219, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 219, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 230, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 230, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -201,7 +201,7 @@ code, kbd, pre, samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 254, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 254, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button, input, optgroup, select, textarea {
   color: inherit;
   /* 1 */
@@ -213,7 +213,7 @@ button, input, optgroup, select, textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 264, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 264, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button {
   overflow: visible; }
 
@@ -223,7 +223,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 276, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 276, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button, select {
   text-transform: none; }
 
@@ -234,7 +234,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 291, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 291, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -244,14 +244,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 301, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 301, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 310, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 310, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -260,7 +260,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 320, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 320, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 input {
   line-height: normal; }
 
@@ -271,7 +271,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 333, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 333, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -283,7 +283,7 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 345, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 345, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
@@ -292,7 +292,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 355, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 355, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -306,14 +306,14 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 369, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 369, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 377, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 377, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
@@ -323,7 +323,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 388, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 388, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -333,7 +333,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 397, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 397, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 textarea {
   overflow: auto; }
 
@@ -341,7 +341,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 406, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 406, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 optgroup {
   font-weight: bold; }
 
@@ -350,12 +350,12 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 417, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 417, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 423, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/vendor/normalize */
+/* line 423, C:\GitHub\recipe-listview/stylesheets/vendor/normalize */
 td, th {
   padding: 0; }
 
@@ -383,36 +383,36 @@ td, th {
     }
 }*/
 
-/* line 1, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/base */
+/* line 1, C:\GitHub\recipe-listview/stylesheets/partials/base */
 BODY {
   background: #fafafa; }
 
-/* line 4, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/base */
+/* line 4, C:\GitHub\recipe-listview/stylesheets/partials/base */
 IMG {
   max-width: 100%; }
 
-/* line 7, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/base */
+/* line 7, C:\GitHub\recipe-listview/stylesheets/partials/base */
 UL {
   list-style-type: none;
   padding: 0; }
 
-/* line 7, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+/* line 7, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 body {
   font-family: 'Open Sans' !important;
   line-height: 1.5; }
 
-/* line 11, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+/* line 11, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 a, a:visited, a:link {
   color: #334d5c;
   text-decoration: none; }
-  /* line 14, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+  /* line 14, C:\GitHub\recipe-listview/stylesheets/partials/typography */
   a:hover, a:focus, a:visited:hover, a:visited:focus, a:link:hover, a:link:focus {
     color: #0f161a; }
-  /* line 17, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+  /* line 17, C:\GitHub\recipe-listview/stylesheets/partials/typography */
   a:active, a:visited:active, a:link:active {
     color: black; }
 
-/* line 21, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+/* line 21, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
   font-family: 'Open Sans';
@@ -426,52 +426,57 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* line 53, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+/* line 53, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 p {
   margin-top: 0.85rem;
   font-size: 0.85rem; }
 
-/* line 57, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/typography */
+/* line 57, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 small {
   font-size: 0.68rem; }
 
-/* line 8, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 8, C:\GitHub\recipe-listview/stylesheets/partials/content */
+.container {
+  width: 89.9%;
+  margin: 0 auto; }
+
+/* line 12, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .card {
   background: white;
   box-shadow: 0 0 5px #888888;
   padding: 0.5rem;
-  max-width: 223px;
+  max-width: 187px;
   display: inline-block;
   vertical-align: top;
   margin: 0.5rem; }
 
-/* line 18, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 22, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating {
   width: 84px;
   background: url(http://ukcdn.ar-cdn.com/global/spriteGlobal.svg?v=457) no-repeat;
   height: 15px;
   clear: both; }
 
-/* line 24, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 28, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating0 {
   background-position: -740px -94px; }
 
-/* line 27, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 31, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating2 {
   background-position: -706px -94px; }
 
-/* line 30, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 34, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating3 {
   background-position: -689px -94px; }
 
-/* line 33, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 37, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating4 {
   background-position: -672px -94px; }
 
-/* line 36, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/partials/content */
+/* line 40, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating5 {
   background-position: -655px -94px; }
 
-/* line 1, /Users/amberharmon/Projects/Sites/git/firstgit/recipe-listview/stylesheets/shame */
+/* line 1, C:\GitHub\recipe-listview/stylesheets/shame */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important; }

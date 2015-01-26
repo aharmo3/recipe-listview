@@ -5,11 +5,15 @@
 // http://www.abookapart.com/products/mobile-first
 // Actually, just buy all of those books.
 // Anyways, here's how I like to structure my content styles:
+.container {
+    width: 89.9%;
+    margin: 0 auto;
+}
 .card {
     background: #fff;
     box-shadow: 0 0 5px #888;
     padding: .5rem;
-    max-width: 223px;
+    max-width: 187px;
     display: inline-block;
     vertical-align: top;
     margin: .5rem;

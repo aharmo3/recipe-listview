@@ -1,4 +1,4 @@
-var app = angular.module("recipeListView", ['ngRoute','angular-loading-bar']);
+var app = angular.module("recipeListView", ['ngRoute', 'angular-loading-bar', 'ui.bootstrap']);
 
 var recipeDataController = function($scope, $http, $log) {
 
@@ -8,24 +8,24 @@ var recipeDataController = function($scope, $http, $log) {
         $scope.numMatches = response.data.totalMatchCount;
     };
 
-    
-
     var onError = function(response) {
         $scope.error = 'Whoops!, something went wrong.'
     };
 
-    $scope.search = function(term)  {
-        $http.get('http://api.yummly.com/v1/api/recipes?_app_id=46ac308e&_app_key=16cf1340c02c27af105b7618247c5e16&maxResult=10&q=' + term)
-            .then(onSearchComplete, onError);
-    };
-    $scope.pagination = function() {
-        var pageCount = +10;
-        $http.get('http://api.yummly.com/v1/api/recipes?_app_id=46ac308e&_app_key=16cf1340c02c27af105b7618247c5e16&maxResult=10&start=' + pageCount)
+    $scope.search = function(term) {
+        $http.get('http://api.yummly.com/v1/api/recipes?_app_id=46ac308e&_app_key=16cf1340c02c27af105b7618247c5e16&maxResult=50&q=' + term)
             .then(onSearchComplete, onError);
     };
 
+    //TODO: Set up Pagination
+    /* $scope.pagination = function() {
+         var pageCount = +10;
+         $http.get('http://api.yummly.com/v1/api/recipes?_app_id=46ac308e&_app_key=16cf1340c02c27af105b7618247c5e16&maxResult=10&start=' + pageCount)
+             .then(onSearchComplete, onError);
+     };*/
+
     // Create Recipe Url
-    $scope.createRecipeUrl = function(id){
+    $scope.createRecipeUrl = function(id) {
         var recipeUrl = 'http://www.yummly.com/recipe/';
         return recipeUrl + id;
     }
