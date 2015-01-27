@@ -1,4 +1,4 @@
-var app = angular.module("recipeListView", ['ngRoute', 'angular-loading-bar', 'ui.bootstrap']);
+var app = angular.module("recipeListView", ['ngRoute', 'angular-loading-bar']);
 
 var recipeDataController = function($scope, $http, $log) {
 
@@ -28,7 +28,9 @@ var recipeDataController = function($scope, $http, $log) {
     $scope.createRecipeUrl = function(id) {
         var recipeUrl = 'http://www.yummly.com/recipe/';
         return recipeUrl + id;
-    }
+    };
+
+
 
     $scope.sgSortOrder = '-rating';
 

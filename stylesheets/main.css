@@ -420,20 +420,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: 300; }
 
+/* line 28, C:\GitHub\recipe-listview/stylesheets/partials/typography */
+H3 {
+  font-size: 20px; }
+
+/* line 31, C:\GitHub\recipe-listview/stylesheets/partials/typography */
+P {
+  font-size: 12px; }
 
 
 
 
 
 
-/* line 53, C:\GitHub\recipe-listview/stylesheets/partials/typography */
-p {
-  margin-top: 0.85rem;
-  font-size: 0.85rem; }
 
-/* line 57, C:\GitHub\recipe-listview/stylesheets/partials/typography */
+/*p {
+    margin-top: $base;
+    font-size: $base;
+}*/
+/* line 64, C:\GitHub\recipe-listview/stylesheets/partials/typography */
 small {
-  font-size: 0.68rem; }
+  font-size: 0.8rem; }
 
 /* line 8, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .container {
@@ -448,32 +455,34 @@ small {
   max-width: 187px;
   display: inline-block;
   vertical-align: top;
-  margin: 0.5rem; }
+  margin: 0.5rem;
+  position: relative; }
 
-/* line 22, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 23, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating {
   width: 84px;
   background: url(http://ukcdn.ar-cdn.com/global/spriteGlobal.svg?v=457) no-repeat;
   height: 15px;
-  clear: both; }
+  clear: both;
+  margin: 5px 0; }
 
-/* line 28, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 30, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating0 {
   background-position: -740px -94px; }
 
-/* line 31, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 33, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating2 {
   background-position: -706px -94px; }
 
-/* line 34, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 36, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating3 {
   background-position: -689px -94px; }
 
-/* line 37, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 39, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating4 {
   background-position: -672px -94px; }
 
-/* line 40, C:\GitHub\recipe-listview/stylesheets/partials/content */
+/* line 42, C:\GitHub\recipe-listview/stylesheets/partials/content */
 .rating.rating5 {
   background-position: -655px -94px; }
 

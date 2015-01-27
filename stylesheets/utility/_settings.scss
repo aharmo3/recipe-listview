@@ -46,7 +46,7 @@ $link-active: darken($link-color, 60%);
 // (let's clap for Chris Coyier for a sec, please)
 // About rems:
 // http://snook.ca/archives/html_and_css/font-size-with-rem
-$base: .85rem;
+$base: 1rem;
 $sml: $base*0.8;
 $h1: $base*5.6;
 $h2: $base*2.2;

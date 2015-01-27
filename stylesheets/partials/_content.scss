@@ -17,6 +17,7 @@
     display: inline-block;
     vertical-align: top;
     margin: .5rem;
+    position: relative;
 }
 // Misc Utilities
 .rating {
@@ -24,6 +25,7 @@
     background: url(http://ukcdn.ar-cdn.com/global/spriteGlobal.svg?v=457) no-repeat;
     height: 15px;
     clear: both;
+    margin: 5px 0;
 }
 .rating.rating0 {
     background-position: -740px -94px;

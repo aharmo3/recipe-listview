@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     font-weight: 300;
 }
+H3 {
+    font-size: 20px;
+}
+P {
+    font-size: 12px
+}
 // Including some placeholder extends for utility use.
 h1, %h1 {
     font-size: $h1;
@@ -50,10 +56,11 @@ h6, %h6 {
     font-size: $sml;
     margin-top: $base;
 }
-p {
+/*p {
     margin-top: $base;
     font-size: $base;
-}
+}*/
+
 small {
     font-size: $sml;
 }

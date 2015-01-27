@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-    <link href="stylesheets/loading-bar.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="stylesheets/loading-bar.css" rel="stylesheet">
 
     <link href="stylesheets/main.css" rel="stylesheet">
 
@@ -20,7 +22,7 @@
 <body ng-app="recipeListView">
     <div class="container" ng-controller="recipeDataController" ng-init="search(' ')">
         <div class="mainSearch">
-            <form name="searchUser" ng-keypress="search(term)">
+            <form name="searchUser" ng-click="search(term)">
                 <input ng-model="term" type="search" placeholder="Recipes to find">
                 <input type="submit" value="search">
                 <br> Sort By:
@@ -36,7 +38,6 @@
         <!--<div>Number of Results: {{ numMatches }}</div>
         <a href="" ng-click="pagination()">Next Page >></a>-->
         <div class="card ng-cloak" ng-repeat="recipe in recipes | orderBy: sgSortOrder">
-
             <a href="{{ createRecipeUrl(recipe.id) }}">
                 <img ng-src="{{ recipe.smallImageUrls[0].replace('=s90', '=s325-c-e370') }}">
             </a>
